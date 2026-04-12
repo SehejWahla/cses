@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class weirdAlgo{
 	public static void main(String[] args){
 	    Scanner myObj = new Scanner(System.in);
-		int n = myObj.nextInt();
+		long n = myObj.nextInt();
 		while(n>0){
 		    System.out.printf("%d ", n);
 		    if(n==1){
