@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class missingNumber{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        long sqr = n*(n+1)/2;
+        long n = sc.nextInt();
+        long sqr = (n*(n+1))/2;
         long total = 0;
         for(int i=0;i<(n-1);i++){
             total += sc.nextInt();
